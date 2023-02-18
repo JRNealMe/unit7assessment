@@ -1,0 +1,23 @@
+Jareds-MBP:unit7assesment jaredneal$ node runtime.js
+Results for the extraLargeArray
+insert 1.243515696 s
+append 9.046254 ms
+
+Results for the LargeArray
+insert 9.952347 ms
+append 643.033 μs
+
+Results for the mediumArray
+insert 357.856 μs
+append 412.484 μs
+
+Results for the smallArray
+insert 17.769 μs
+append 16.84 μs
+
+Results for the tinyArray
+insert 130.375 μs
+append 7.673 μs
+
+Insert scales poorly or on par at every point with each array.  Append scales much better especially at best and worst case scernarios. You can tell 
+because append performs on the extraLarge array test orders of magnitude better.  
